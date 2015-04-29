@@ -32,4 +32,5 @@ conflicts: [ "camlzip" {< "1.04" } ]
 patches: [
   "build-against-recent-lwt.diff"
   "fix-build-with-ocsipersist-sqlite.diff"
+  "expose-ocsigen_request_info.diff"
 ]

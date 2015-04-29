@@ -1,0 +1,24 @@
+From 47e838f0e5551e65ed0a61c00ad1f1cf9007907e Mon Sep 17 00:00:00 2001
+From: Mauricio Fernandez <mfp@acm.org>
+Date: Wed, 29 Apr 2015 19:37:42 +0200
+Subject: [PATCH] Expose Ocsigen_request_info interface.
+
+---
+ src/Makefile.filelist | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/Makefile.filelist b/src/Makefile.filelist
+index 698f9cb..6e830a5 100644
+--- a/src/Makefile.filelist
++++ b/src/Makefile.filelist
+@@ -25,6 +25,7 @@ INTF := baselib/ocsigen_cache.cmi	   \
+ 	server/ocsigen_http_client.cmi     \
+ 	server/ocsigen_local_files.cmi     \
+ 	server/ocsigen_server.cmi	   \
++	server/ocsigen_request_info.cmi    \
+ 
+ IMPL := baselib/ocsigen_lib_base.cmo	   \
+         baselib/baselib.cma		   \
+-- 
+1.8.5.2
+
